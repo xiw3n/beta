@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Heiti SC";
+    /*color: #212121;*/
+}
+
+a {
+    font-family: "Heiti SC";
+    text-decoration: none;
+}
+
+.logo_zone{
+    height: 900px;
+    width: 100%;
+    /*background-color: rgba(178, 34, 34, 0.3);*/
+    background: url("./01a0005bd01317a801213dea59e65a.jpg@3000w_1l_0o_100sh.jpg") no-repeat;
+    background-size: 100%;
+    float:left;
+    /*position: relative;*/
+}
+
+.content_zone1{
+    top:0;
+    height: 600px;
+    width: 100%;
+    /*background-color: rgba(178, 34, 34, 0.3);*/
+    float: left;
+}
+
+.content_zone2{
+    top:0;
+    height: 300px;
+    width: 100%;
+    background-color: rgba(178, 34, 34, 0.3);
+    float: left;
+}
+
+.nav-bar {
+    /*margin-top: 140px;*/
+    /*top:40px;*/
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(255, 255, 255, 0.05));
+    /*background-color: rgba(178, 34, 34, 0.85);*/
+    height: 63px;
+    /*border: solid 1px rgb(224, 224, 224);*/
+    border-left: 0;
+    border-right: 0;
+    position: absolute;
+}
+
+.nav-bar .nav-container .nav-right .nav-right-item .nav_child {
+    padding: 25px;
+    position: absolute;
+    border-top: 2px solid #0652DD;
+    top: 64px;
+    width: 1146px;
+    background-color: rgba(245, 246, 250, 0.8);
+    left: 0;
+    display: none;
+}
+
+.nav-bar .nav-container .nav-right .nav-right-item a:hover .nav_child {
+    display: flex;
+}
+
+.nav-bar .nav-container .nav-right .nav-right-item .nav_child .l {
+    width: 45%;
+    display: flex;
+}
+
+
+.nav-bar .nav-container .nav-right .nav-right-item .nav_child .l .pic {
+    width: 166px;
+}
+
+
+.nav-bar .nav-container .nav-right .nav-right-item .nav_child .l .pic img {
+    max-width: 100%;
+    max-height: 100%;
+    /*overflow: hidden;*/
+    /*padding-bottom: 100%;*/
+}
+
+.nav-bar .nav-container .nav-right .nav-right-item .nav_child .l .txt {
+    font-size: 23px;
+    color: #94070a;
+    padding-left: 30px;
+    line-height: 2.2;
+}
+
+.nav-bar .nav-container .nav-right .nav-right-item .nav_child .r {
+    width: 55%;
+}
+
+.nav-bar .nav-container .nav-right .nav-right-item .nav_child .r a{
+    color: darkblue;
+}
+
+.nav-bar .nav-container .nav-right .nav-right-item:hover .nav_child {
+    display: flex;
+    transition: all 0.7s;
+}
+
+#fixed {
+    margin: 0px;
+    position: fixed;
+    top: -65px;
+}
+
+#fixed.active {
+    top: 0px;
+    transition: all 0.3s;
+    z-index: 1000;
+}
+
+.nav-bar .nav-container {
+    width: 1226px;
+    height: 60px;
+    background-color: rgba(178, 34, 34, 0);
+    margin: 0 auto;
+    position: relative;
+}
+
+.nav-bar .nav-container .logo {
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+.nav-bar .nav-container .nav-right {
+    display: inline-block;
+    float: right;
+    height: 40px;
+    /*margin-top: 15px;*/
+    margin: 10px auto;
+}
+
+.nav-bar .nav-container .nav-right .nav-right-item {
+    display: inline-block;
+    float: left;
+    height: 30px;
+    padding: 5px 5px 20px 5px;
+    top: 0;
+}
+
+.nav-bar .nav-container .nav-right .nav-right-item:hover {
+    /*color: white;*/
+    background-color: #0652DD;
+    transition: all 0.3s;
+}
+
+
+.nav-bar .nav-container .nav-right span {
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    padding: 13px 3.5px;
+    float: left;
+}
+
+.nav-bar .nav-container .nav-right .icon-sousuo1 {
+    cursor: pointer;
+}
+
+
+.nav-bar .nav-container .nav-right .nav-right-item a {
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.nav-bar .nav-container .nav-right .nav-right-item .cur {
+    color: red !important;
+    background-color: #fff;
+
+}
+
+/*.nav-bar .nav-container .nav-right .nav-right-item .recuit {*/
+/*    !*width: 118px;*!*/
+/*    !*border: solid 1px rgb(255,103,0);*!*/
+/*    display: inline-block;*/
+/*    background-color: rgb(255, 103, 0);*/
+/*    line-height: 30px*/
+/*    padding: 13px 0;*/
+/*    font-size: 14px;*/
+/*    margin: 0 10px;*/
+/*}*/
+
+
+.nav-bar .nav-container .nav-right .contac:hover {
+    background-color: #f25807;
+    border-color: #f25807;
+    color: white;
+}
+
